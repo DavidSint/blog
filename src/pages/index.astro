@@ -95,16 +95,16 @@ const posts = (await getCollection("blog")).sort(
               let image: typeof Image | undefined;
               if (post.data.heroImage) {
                 const loading = index < 3 ? 'eager' : 'lazy';
-                image = <Image width={720} height={360} src={post.data.heroImage} alt="" loading={loading} />
+                image = <Image width={720} height={360} src={post.data.heroImage} alt={`'${post.data.title}' hero image`} loading={loading} transition:name={"heroImage-" + post.data.title + post.data.pubDate} transition:animate="initial" />
               }
 
 							return (
                 <li>
                   <a href={`/${post.slug}/`}>
                     {image ? image : ''}
-                    <h4 class="title">{post.data.title}</h4>
+                    <h4 class="title"  transition:name={"title-" + post.data.title + post.data.pubDate} transition:animate="initial">{post.data.title}</h4>
                     <p class="date">
-                      <FormattedDate date={post.data.pubDate} />
+                      <FormattedDate date={post.data.pubDate}   transition:name={"date-" + post.data.title + post.data.pubDate} transition:animate="initial" />
                     </p>
                   </a>
                 </li>
