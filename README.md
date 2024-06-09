@@ -10,7 +10,7 @@ This repo uses the Astro framework and is based on the template blog.
 
 ## 🚀 Project Structure
 
-Inside of your Astro project, you'll see the following folders and files:
+Inside of this Astro project, there is the following folders and files:
 
 ```text
 ├── public/
@@ -45,9 +45,9 @@ All commands are run from the root of the project, from a terminal:
 | `npm run preview`         | Preview your build locally, before deploying     |
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
-| `format:fix`              | Run the Biome formatter to write fixes           |
-| `linter:fix`              | Run the Biome linter to write fixes              |
-| `check:fix`               | Run the Biome formatter & linter to write fixes  |
+| `npm run format:fix`      | Run the Biome formatter to write fixes           |
+| `npm run linter:fix`      | Run the Biome linter to write fixes              |
+| `npm run check:fix`       | Run the Biome formatter & linter to write fixes  |
 
 ## Credit
 
