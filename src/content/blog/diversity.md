@@ -1,5 +1,5 @@
 ---
-title: 'Is Diversity, Inclusivity and Equity an All-Out War on the Concept of Excellence?'
+title: 'Is Diversity, Inclusivity And Equity An All-Out War On The Concept Of Excellence?'
 description: "Delve into Dr. Jordan Peterson's controversial tweet and the broader implications for education and the workplace"
 pubDate: 2019-08-09
 heroImage: '../images/blog-diversity.png'

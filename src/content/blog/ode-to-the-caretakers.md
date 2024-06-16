@@ -1,5 +1,5 @@
 ---
-title: 'An Ode to the Caretakers'
+title: 'An Ode To The Caretakers'
 description: "Perhaps more important than the pioneers, let's celebrate the people that maintain our world."
 pubDate: 2024-06-07
 heroImage: '../images/blog-caretaker.png'
