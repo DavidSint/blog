@@ -7,12 +7,12 @@ import { SITE_DESCRIPTION, SITE_TITLE } from "../consts";
 
 <!doctype html>
 <html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-		<style>
-			main {
-				width: 960px;
-			}
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+    <style>
+      main {
+        width: 960px;
+      }
       nav > a {
         color: var(--black);
         display: inline-block;
@@ -24,19 +24,19 @@ import { SITE_DESCRIPTION, SITE_TITLE } from "../consts";
         text-decoration: underline;
       }
     </style>
-	</head>
-	<body>
-		<Header />
+  </head>
+  <body>
+    <Header />
     <nav>
       <a href="/" class="to-articles">← Articles</a>
     </nav>
-		<main>
-			<h1>404: Not Found</h1>
+    <main>
+      <h1>404: Not Found</h1>
       <pre>Path: {Astro.url.pathname}</pre>
-		</main>
+    </main>
     <nav>
       <a href="/" class="to-articles">← Articles</a>
     </nav>
-		<Footer />
-	</body>
+    <Footer />
+  </body>
 </html>
