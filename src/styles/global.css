@@ -115,13 +115,13 @@ h3,
 h4,
 h5,
 h6 {
- font-family: 'Domine', serif;
+  font-family: 'Domine', serif;
   margin: 0 0 0.5rem 0;
   color: rgb(var(--black));
   line-height: 1.2;
 }
 h1 {
-  font-size: 3.052em;
+  font-size: clamp(1.953em, 5.3333vw + 1.4rem, 3.052em);
 }
 h2 {
   font-size: 2.441em;
@@ -135,10 +135,8 @@ h4 {
 h5 {
   font-size: 1.25em;
 }
+
 @media (max-width: 720px) {
-  h1 {
-   font-size: 2.441em;
- }
  h2 {
    font-size: 1.953em;
  }
@@ -259,4 +257,8 @@ hr {
   clip-path: inset(50%);
   /* added line to stop words getting smushed together (as they go onto separate lines and some screen readers do not understand line feeds as a space */
   white-space: nowrap;
+}
+
+.scroller {
+  overflow-x: auto;
 }

@@ -30,12 +30,16 @@ The system comprises:
 3. Communication mesh network
 4. Road users
 
+<div class="scroller">
+
 | Participant | Description | Examples |
 | --- | --- | --- |
 | **Centralised system** | Stores the accurate state of the network, responds to information requests, and communicates with other network nodes like signs and road users. | Data centers, cloud infrastructure |
 | **Signage** | Displays information to non-smart vehicles. | Gantries, standalone signs |
 | **Communication mesh network** | A P2P communication network with a dedicated waveband and senders/receivers on the roads, and vehicles | Gantry antenna, camera antenna, vehicle antenna |
 | **Road users** | These have sensors and are able to communicate with the network. | Cars, vans, lorries, cyclists |
+
+</div>
 
 ### Digital Twin and Signage
 
