@@ -1,8 +1,8 @@
 ---
-title: 'A Software License For Social Good'
-description: 'Explore the concept of software licensing for social good, its potential impact on promoting social responsibility and transparency, and the introduction of the GOOD License as a practical example of balancing open-source freedoms with ethical standards.'
+title: "A Software License For Social Good"
+description: "Explore the concept of software licensing for social good, its potential impact on promoting social responsibility and transparency, and the introduction of the GOOD License as a practical example of balancing open-source freedoms with ethical standards."
 pubDate: 2024-06-09
-heroImage: '../images/blog-license.png'
+heroImage: "../images/blog-license.png"
 ---
 
 In the fast-evolving world of technology, open-source software is a cornerstone of innovation and collaboration. The freedoms granted by licenses like the MIT License have empowered developers to create and share their work without restrictive barriers

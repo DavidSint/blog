@@ -1,8 +1,8 @@
 ---
-title: 'An Ode To The Caretakers'
+title: "An Ode To The Caretakers"
 description: "Perhaps more important than the pioneers, let's celebrate the people that maintain our world."
 pubDate: 2024-06-07
-heroImage: '../images/blog-caretaker.png'
+heroImage: "../images/blog-caretaker.png"
 ---
 
 In the pantheon of human achievement, the creators, innovators, and pioneers often take centre stage. We celebrate the inventors, the visionaries, and the trailblazers, immortalising their names in history books and commemorating their feats with grand monuments. Yet, as we revel in the brilliance of these creators, we often overlook a group equally deserving of our admiration and gratitude—the maintainers. These unsung heroes are the custodians of continuity, the guardians of progress, and the silent engines that keep the world running smoothly.

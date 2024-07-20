@@ -1,8 +1,8 @@
 ---
-title: 'Is Diversity, Inclusivity And Equity An All-Out War On The Concept Of Excellence?'
+title: "Is Diversity, Inclusivity And Equity An All-Out War On The Concept Of Excellence?"
 description: "Delve into Dr. Jordan Peterson's controversial tweet and the broader implications for education and the workplace"
 pubDate: 2019-08-09
-heroImage: '../images/blog-diversity.png'
+heroImage: "../images/blog-diversity.png"
 ---
 
 In a recent Tweet, Dr Jordan Peterson stated that “the real purpose of Diversity, Inclusivity and Equity is an all-out war on even the concept of excellence” with a link to an opinion article by Bret Stephens where he comments, “It’s a revolt of the mediocre many against the excellent few. And it is being undertaken for the sake of a radical egalitarianism in which all are included, all are equal, all are special.”

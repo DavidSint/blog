@@ -57,7 +57,7 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
         color: var(--black);
         display: inline-block;
         text-decoration: none;
-        margin: .5em;
+        margin: 0.5em;
       }
       nav > a:hover {
         text-shadow: 0 0 2em var(--accent-dark);
@@ -74,12 +74,28 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
     <main>
       <article>
         <div class="hero-image">
-          {heroImage && <Image width={1020} height={510} src={heroImage} alt={`'${title}' hero`} loading='eager' transition:name={"heroImage-" + title + pubDate}  transition:animate="initial" />}
+          {
+            heroImage && (
+              <Image
+                width={1020}
+                height={510}
+                src={heroImage}
+                alt={`'${title}' hero`}
+                loading="eager"
+                transition:name={"heroImage-" + title + pubDate}
+                transition:animate="initial"
+              />
+            )
+          }
         </div>
         <div class="prose">
           <div class="title">
             <div class="date">
-              <FormattedDate date={pubDate}  transition:name={"date-" + title + pubDate}  transition:animate="initial" />
+              <FormattedDate
+                date={pubDate}
+                transition:name={"date-" + title + pubDate}
+                transition:animate="initial"
+              />
               {
                 updatedDate && (
                   <div class="last-updated-on">
@@ -88,7 +104,12 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
                 )
               }
             </div>
-            <h1 transition:name={"title-" + title + pubDate} transition:animate="initial">{title}</h1>
+            <h1
+              transition:name={"title-" + title + pubDate}
+              transition:animate="initial"
+            >
+              {title}
+            </h1>
             <hr />
           </div>
           <slot />

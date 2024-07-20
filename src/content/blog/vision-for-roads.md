@@ -1,8 +1,8 @@
 ---
-title: 'A Vision For Roadway Infrastructure'
-description: 'Explore the future of roadway infrastructure, envisioning smarter and safer roads as well as more efficient and pleasurable driving experiences for all.'
+title: "A Vision For Roadway Infrastructure"
+description: "Explore the future of roadway infrastructure, envisioning smarter and safer roads as well as more efficient and pleasurable driving experiences for all."
 pubDate: 2024-06-17
-heroImage: '../images/blog-smart-roads.png'
+heroImage: "../images/blog-smart-roads.png"
 ---
 
 On long drives, I often contemplate how we could improve road infrastructure, particularly if we were to build it from scratch today with an unlimited budget. In the UK, we have been building _smart motorways_, which have been controversial due to the removal of the _hard shoulder_—the lane used for emergencies. These projects operate within limited budgets and are cautious about future vehicular technology, resulting in motorways designed for the present rather than the future.
@@ -25,6 +25,7 @@ To ground this concept in reality, we need some guiding principles:
 ### Network Participants
 
 The system comprises:
+
 1. Centralised system
 2. Signage and gantries
 3. Communication mesh network
@@ -62,6 +63,7 @@ Imagine a system where vehicles' sensors and sat-nav systems detect hazards and 
 In the event of a crash, other vehicles and road sensors would send this information to the centralised service which could coordinate the response effort with emergency responders.
 
 #### Local-First Communication System
+
 The communication system should prioritise local communication before escalating to broader networks. This approach starts with logging an event internally, extends to vehicle-to-vehicle or vehicle-to-road using a specific band for peer-to-peer (P2P) communication, and finally to vehicle-to-cloud using a vehicle's SIM or a connected mobile device. This ensures updates are saved and eventually reach the central system directly or through peers.
 
 Events from nodes will require de-duplication and a consensus algorithm to align on an accurate road picture. This algorithm can be iteratively improved for precision. The centralised architecture will simplify the consensus-building process compared to more complex public blockchain algorithms.
@@ -95,4 +97,5 @@ Further, because these lanes are autonomous, depending on traffic conditions and
 The centralised system would maintain an archive of road data, providing valuable insights for future system improvements and policy-making. By analysing traffic patterns, accident data, and road conditions, authorities can make informed decisions to continuously improve roadway infrastructure and safety standards.
 
 ## Conclusion
+
 Envisioning modern roadway infrastructure from the ground up demonstrates what's possible. By integrating a digital twin system, a dedicated communication network, and smart vehicle technologies, we can significantly enhance the safety and efficiency of our roads. Emphasizing principles like backwards compatibility, redundancy, and interoperability ensures a smooth transition from current vehicles while encouraging adoption of smarter technologies. Ultimately, this concept envisions a roadway system where digital and physical realms converge, fostering a safer, smarter, and more responsive driving environment for all.
